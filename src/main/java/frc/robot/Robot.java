@@ -80,10 +80,10 @@ public class Robot extends TimedRobot {
   }
 
   /** This function is called periodically during operator control. */
-  LimeLight flLimeLight = new LimeLight("rear");
+  
   @Override
   public void teleopPeriodic() {
-    SmartDashboard.putNumber("information",flLimeLight.getAprilTagPosition(4));
+    
   }
 
   @Override
